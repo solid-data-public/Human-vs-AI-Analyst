@@ -1,0 +1,2 @@
+# Cursor IDE Documentation File
+
