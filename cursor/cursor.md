@@ -9,7 +9,7 @@ Cursor's Role: AI Pair-Programmer (writing all the code)
 
 ### **Step 1: Setup and Load Data**
 
-1.  Open your project folder (containing employment\_data\_final.csv) in Cursor.
+1.  Open your project folder (containing employment_data_final.csv) in Cursor.
     
 2.  Create a new file: dashboard.py.
     
