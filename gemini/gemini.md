@@ -29,7 +29,7 @@ Prompt 1: Load and Inspect Data
 
 Prompt 2: Create the "AI vs. Growth Map" (Answers Q1 & Q3)
 
-"Please provide the Python code to create a single, interactive bubble chart using Plotly Express to replicate my 'AI vs Growth Map'. This chart must visualize four variables at once:
+"Please provide the Python code to create a single, interactive bubble chart using Plotly Express, called 'AI vs Growth Map'. This chart must visualize four variables at once:
 
 *   **X-axis:** AI Applicability Score
     
@@ -48,7 +48,7 @@ Prompt 3: Refine the "AI vs. Growth Map"
 
 "That's great. Now, please update the code for that Plotly chart to:
 
-1.  Change the color scale to 'OrRd' (Orange-Red) to match my Tableau 'Orange-Blue Diverging' where high is orange/red.
+1.  Change the color scale to 'OrRd' (Orange-Red) where high is orange/red.
     
 2.  Add a dashed vertical reference line for the mean AI Applicability Score.
     
@@ -90,7 +90,7 @@ Prompt 6: Create the "Analytics Role Growth" Chart (Answers Q2)
 
 Prompt 7: Find "Least AI-Affected Jobs" (Answers Q2)
 
-"To replicate my 'Least AI-Affected Jobs' worksheet, please provide the Python code to create a list (or DataFrame) of 20 jobs that meet two conditions:
+"Create a 'Least AI-Affected Jobs' worksheet, please provide the Python code to create a list (or DataFrame) of 20 jobs that meet two conditions:
 
 1.  Their AI Applicability Score is _below_ the average AI Applicability Score of the entire dataset.
     
