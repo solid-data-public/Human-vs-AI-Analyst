@@ -123,26 +123,16 @@ This worksheet will be a set of bar charts filtering for specific roles.
 
 ### **Step 4: Answer Question 3: "Jobs that evolve, grow, and pay well?"**
 
-This worksheet will enhance our scatter plot from Step 2.
+This can actually be answered by utilizing the Scatter Plot from Step 2.
 
-1.  **Name Worksheet:** Create a new worksheet named Opportunity Map.
+1.  **Go to Worksheet:** AI vs Growth Map
+        
+2.  **Initial Insight:**
     
-2.  **Create Enhanced Scatter Plot:**
-    
-    *   Drag AI Applicability Score to **Columns**.
-        
-    *   Drag Employment Percent Change to **Rows**.
-        
-    *   Drag Job Title to **Detail**.
-        
-    *   **This is the key:** Drag Median Annual Wage to both the **Color** shelf _and_ the **Size** shelf.
-        
-3.  **Initial Insight:**
-    
-    *   Tableau will automatically create a bubble chart where the _color_ (light to dark) and the _size_ (small to large) both represent the salary.
-        
-    *   The jobs in the **top-right quadrant** (High AI, High Growth) that are also the **largest and darkest circles** (High Salary) are your answer.
-        
+    *   The jobs in the **top-right quadrant** (High AI, High Growth) that are also the **largest circle** (employment growth in thousands) and **darkest orange in color** (highest salaries) are likely going to be the ones to go after, if they interest you.
+    *   It's worth noting that jobs that may not be affected as much by AI are in the **top-left quadrant** (Low AI, High Growth) are also the great, old reliable, high growth jobs that are anticipated to be needed regardless of AI's involvement in society.
+
+3. For the purpose of creating a non-analytics role view as well, I duplicated the `Analytics Role Growth` worksheet and cleared the "Title" filter so it worked for all roles.
 
 ### **Step 5: Build The Final Dashboard**
 
@@ -150,20 +140,20 @@ This worksheet will enhance our scatter plot from Step 2.
     
 2.  **Add Sheets:** Drag your worksheets onto the dashboard canvas. A good layout would be:
     
-    *   AI vs. Growth Map (main, large view)
+    *   AI vs. Growth Map (main, large view - taking up left side of dashboard)
         
-    *   Opportunity Map (next to it or below it)
-        
-    *   Analytics Role Deep-Dive (smaller, as a bar chart)
+    *   Analytics Role Deep-Dive (top right)
+  
+    *   Analytics Role Growth (bottom right)
         
 3.  **Add Interactivity:**
     
-    *   Add a Job Title filter. Click on one of your sheets (like AI vs. Growth Map) in the dashboard, click the small dropdown arrow, and select Filters > Job Title.
+    *   Add a Job Title filter. Click on one of your sheets (like AI vs. Growth Map) in the dashboard, click the small dropdown arrow, and select Filters > Title.
         
     *   This will add the filter you created in Step 3.
         
     *   Click the filter's dropdown arrow, select Customize, and check Show "All" Value and Show Search Box (or Wildcard Match).
         
-    *   Click the filter's dropdown again and select Apply to Worksheets > All Using This Data Source.
-        
-4.  **You're Done:** Now you have a dashboard where you can see the overall map, and you (or a user) can type in any job title (like "Analyst" or "Dentist" or "Manager") to see exactly where it falls on all the charts.
+4.  **You're Done:** Now you have a dashboard where you can see the overall map, and you (or a user) can type in any job title (like "Analyst" or "Dentist" or "Manager") to see exactly where it falls on the map.
+
+5.  **Bonus:** If you want to add a non-analytics roles version of this dashboard, just duplicate it, and change out the Analytics Role Deep-Dive for the Least AI-Affected Jobs worksheet, and the Analytics Role Growth worksheet for the Non-Analytics Role Top Growth worksheet I recommended in Step 4.
