@@ -10,9 +10,7 @@ I wanted to demonstrate what an evolution could look like for analysts and then 
 
 ### **Project Documentation & Files**
 
-I utilized a Github Repository to store the files and documentation, you can access that [here](https://github.com/zackm-solid/Human-vs-AI-Analyst) if you’d like to try any of this for yourself or see my process.
-
-I generated a basic process markdown file for each part of the project so you can see the steps I took to get to the insights I ultimately uncovered.  Just go into the respective directories for each analysis workflow, or as I call them here, “The Contenders”.
+I added the prompts and methodology and applicable code into each of the respective folders of the "contenders".  Navigate through those folders to get more detail on the process.
 
 ### **The Dataset**
 
@@ -80,7 +78,7 @@ This was a night-and-day difference, but not necessarily 100% for the better.  
 
 ### **The “Full-Stack” AI Analyst (Julius AI)**
 
-This tool claims to do the _entire_ job. No code, just prompts. I uploaded the CSV and asked it my questions (full prompts in [Github](https://github.com/zackm-solid/Human-vs-AI-Analyst/blob/main/julius/julius.md)).
+This tool claims to do the _entire_ job. No code, just prompts. I uploaded the CSV and asked it my questions (full prompts in [Julius Directory](https://github.com/zackm-solid/Human-vs-AI-Analyst/blob/main/julius/julius.md)).
 
 **Results:**
 
@@ -102,7 +100,7 @@ Cursor is more of a developer's tool. I wanted to know if it was "too much" for 
 
 **Results:**
 
-Pretty incredible stuff.  I literally just pulled down the Github repo I hosted this project in, told it to look at the Cursor directory and [markdown reference file](https://github.com/zackm-solid/Human-vs-AI-Analyst/blob/main/cursor/cursor.md), then start building.
+Pretty incredible stuff.  I literally just pulled down the Github repo I hosted this project in, told it to look at the [Cursor directory](https://github.com/zackm-solid/Human-vs-AI-Analyst/blob/main/cursor/cursor.md), then start building.
 
 ![Final Cursor Dashboard](https://github.com/zackm-solid/Human-vs-AI-Analyst/blob/main/images/Cursor.png)
 
@@ -118,7 +116,7 @@ Having it create everything that quickly and present it in Streamlit is really i
 
 ### **The Final Insights**
 
-If you’re curious about what I actually found in the data?  Well, you’re welcome to dig into my [Tableau Public](https://public.tableau.com/views/AIJobImpact_17632417332070/AnalyticsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) dashboard or any of the other stuff I included in the Github [repo](https://github.com/zackm-solid/Human-vs-AI-Analyst/tree/main).
+If you’re curious about what I actually found in the data?  Well, you’re welcome to dig into my [Tableau Public](https://public.tableau.com/views/AIJobImpact_17632417332070/AnalyticsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) dashboard or any of the other stuff I included in the [repo](https://github.com/zackm-solid/Human-vs-AI-Analyst/tree/main).
 
 **Here’s a few Highlights:** 
 
