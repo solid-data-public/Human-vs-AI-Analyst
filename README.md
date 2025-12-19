@@ -4,7 +4,7 @@ An honest, hands-on comparison of Tableau Public, Gemini + Colab, Julius AI, and
 
 ### **The Hot Question: In analytics, is AI coming for my entire job, or just my task list?**
 
-As the founder of the dataGOATs community, it’s something that comes up a lot during our discussions: What are analytics roles going to look like as AI continues to get better and better? Will it replace me, or will it just evolve?
+Over the past year, I have spent a lot of time talking to analysts across the globe, and it’s something that comes up a lot during our discussions: What are analytics roles going to look like as AI continues to get better and better? Will it replace me, or will it just evolve?
 
 I wanted to demonstrate what an evolution could look like for analysts and then try to answer the “will it replace me?” question. In order to do that, I took a dataset about AI applicability across various jobs (yes, I know, it’s very meta), one human analyst (me), and three different AI tools to give an honest comparison to what gives the best analysis, and in what ways. 
 
@@ -153,9 +153,3 @@ I have to admit, I still really enjoyed building the Tableau dashboard.  It cer
 Though, the elephant in the room is… if I spent 3x more time dialing in Julius, Cursor or Colab, it likely would look better than my Tableau dashboard.
 
 Perhaps that will be a future write-up.
-
-### **What Do You Think?**
-
-What tools are you using? What did I miss?
-
-Come join the conversation and share your own AI workflows in the [GOATs Community](https://community.datagoats.org/) (dataGOATs.org).
